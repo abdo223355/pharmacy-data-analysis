@@ -1,0 +1,22 @@
+# client data - never push (contains customer phone numbers)
+data/
+*.csv
+*.xlsx
+
+# reports may contain client numbers
+reports/
+
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+
+node_modules/
+
+# private / local-only (never publish)
+CLAUDE.md
+docs/
+.vscode/
+scripts/config_local.py
+notebooks/01_cleaning.ipynb
+reports/
+data/
